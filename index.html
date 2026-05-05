@@ -64,9 +64,6 @@
       }
 
       article {
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) auto;
-        gap: 20px;
         padding: 22px 0;
         border-bottom: 1px solid var(--line);
       }
@@ -93,12 +90,6 @@
         text-decoration: underline;
       }
 
-      .paper-link {
-        align-self: start;
-        white-space: nowrap;
-        font-weight: 650;
-      }
-
       footer {
         margin-top: 34px;
         color: var(--muted);
@@ -110,14 +101,6 @@
           padding-top: 36px;
         }
 
-        article {
-          grid-template-columns: 1fr;
-          gap: 8px;
-        }
-
-        .paper-link {
-          white-space: normal;
-        }
       }
     </style>
   </head>
@@ -130,19 +113,17 @@
 
       <section class="papers" aria-label="Papers">
         <article>
-          <div>
-            <h2>When Activation Interventions Do and Do Not Carry Facts</h2>
-            <p>A boundary study on Qwen2.5-1.5B. 8 pages.</p>
-          </div>
-          <a class="paper-link" href="assets/pdfs/activation-interventions.pdf">PDF</a>
+          <h2>
+            <a href="assets/pdfs/activation-interventions.pdf">When Activation Interventions Do and Do Not Carry Facts</a>
+          </h2>
+          <p>A boundary study on Qwen2.5-1.5B. 8 pages.</p>
         </article>
 
         <article>
-          <div>
-            <h2>A Tiny Interpretable Codec for Analogy Structure in Qwen Hidden States</h2>
-            <p>An experiment report on analogy structure. 10 pages.</p>
-          </div>
-          <a class="paper-link" href="assets/pdfs/qwen-codec4.pdf">PDF</a>
+          <h2>
+            <a href="assets/pdfs/qwen-codec4.pdf">A Tiny Interpretable Codec for Analogy Structure in Qwen Hidden States</a>
+          </h2>
+          <p>An experiment report on analogy structure. 10 pages.</p>
         </article>
       </section>
 
