@@ -1,6 +1,5 @@
-# PDF Assets
+# Research Notes
 
-Static PDF hosting for public research artifacts served through GitHub Pages.
+Public research notes and papers served through GitHub Pages.
 
 Published files live under `assets/pdfs/`.
-
